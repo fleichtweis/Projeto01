@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,25 +9,87 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.fleichtweis.projeto01.MainActivity">
+    tools:context="com.fleichtweis.projeto01.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_weight="1">
 
-    <Button
-        android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/margensRelativeMain">
+
+            <Button
+                android:id="@+id/sobrePrefeito"
+                android:drawableTop="@android:drawable/ic_menu_agenda"
+                android:text="@string/sobrePrefeito"
+                style="@style/botoes"
+                />
+
+            <Button
+                android:id="@+id/candidatos"
+                android:drawableTop="@android:drawable/ic_menu_add"
+                android:text="@string/candidatos"
+                style="@style/botoes"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/propostas"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="@string/propostas"
+                style="@style/botoes"
+                android:layout_below="@id/sobrePrefeito"/>
+
+            <Button
+                android:id="@+id/sobreColigacao"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="@string/sobreColigacao"
+                style="@style/botoes"
+                android:layout_below="@id/sobrePrefeito"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/agenda"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="@string/agenda"
+                style="@style/botoes"
+                android:layout_below="@id/propostas"/>
+
+            <Button
+                android:id="@+id/redesSociais"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="@string/redesSociais"
+                style="@style/botoes"
+                android:layout_below="@id/propostas"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/noticias"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="@string/noticias"
+                style="@style/botoes"
+                android:layout_below="@id/agenda"/>
+
+            <Button
+                android:id="@+id/recado"
+                android:drawableTop="@android:drawable/ic_menu_info_details"
+                android:text="@string/recado"
+                style="@style/botoes"
+                android:layout_below="@id/agenda"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="TESTE"
-        android:background="@android:drawable/ic_dialog_alert"/>
+        android:layout_weight="3"
+        android:src="@drawable/fig02"
+        android:contentDescription="" />
 
-    <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_centerHorizontal="true"
-        android:background="@android:drawable/ic_dialog_info"
-        android:backgroundTint="@android:color/black"/>
-
-</RelativeLayout>
+</LinearLayout>

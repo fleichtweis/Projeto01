@@ -1,4 +1,20 @@
 <resources>
+    <!-- Configurações do projeto -->
     <string name="app_name">Projeto01</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Botões iniciais -->
+    <string name="candidatos">Candidatos</string>
+    <string name="sobrePrefeito">Sobre\nPrefeito</string>
+    <string name="propostas">Propostas</string>
+    <string name="sobreColigacao">Sobre\nColigação</string>
+    <string name="agenda">Agenda</string>
+    <string name="redesSociais">Redes\nSociais</string>
+    <string name="noticias">Notícias</string>
+    <string name="recado">Deixe seu\nRecado</string>
+    <string name="enquete">Enquete</string>
+
+    <!-- Textos -->
+
+
 </resources>

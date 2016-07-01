@@ -3,4 +3,20 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    
+    <!-- Cores para o background dos botões -->
+    <color name="botaoBaixo">#000066</color>
+    <color name="botaoCima">#FFFFFF</color>
+
+
+    <!-- Cores para o background da página inicial (MainActivity) e outras-->
+    <color name="corBaixo">#FFDEAD</color>
+    <color name="corCima">#FFFFE0</color>
+
+    <!-- Outras Cores -->
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+    <color name="amarelo">#FFFF00</color>
+
+
 </resources>

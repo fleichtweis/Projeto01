@@ -15,8 +15,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_height="1dp"
+        android:layout_weight="3">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -27,8 +27,7 @@
                 android:id="@+id/sobrePrefeito"
                 android:drawableTop="@android:drawable/ic_menu_agenda"
                 android:text="@string/sobrePrefeito"
-                style="@style/botoes"
-                />
+                style="@style/botoes" />
 
             <Button
                 android:id="@+id/candidatos"
@@ -87,9 +86,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"
+        android:layout_height="1dp"
+        android:layout_weight="1"
         android:src="@drawable/fig02"
-        android:contentDescription="" />
+        android:contentDescription="Candidatos, partidos, coligação e slogan" />
 
 </LinearLayout>

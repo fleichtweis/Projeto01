@@ -89,6 +89,6 @@
         android:layout_height="1dp"
         android:layout_weight="1"
         android:src="@drawable/fig02"
-        android:contentDescription="Candidatos, partidos, coligação e slogan" />
+        android:contentDescription="@string/descriptionBannerMainActivity" />
 
 </LinearLayout>

@@ -8,28 +8,54 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.fleichtweis.projeto01.SobrePrefeito"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
+    <!-- Banner da Activity Sobre Prefeito -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="1"
         android:src="@drawable/fig02"
-        android:contentDescription="Figura com o candidato"/>
+        android:contentDescription="@string/descriptionBannerSobrePrefeito"/>
 
+    <!-- Títulos e textos da Activity -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="3">
+        android:layout_weight="3"
+        android:orientation="vertical">
 
+        <!-- Título da activity -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sobre candidato a Prefeito"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/preto"
-            android:gravity="center"
+            android:text="@string/tituloSobrePrefeito"
+            style="@style/tituloActivitySobrePrefeito"
+            />
+
+        <!-- Texto sobre o candidato a prefeito -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoSobrePrefeito"
+            style="@style/textoActivitySobrePrefeito"
+            />
+
+        <!-- Título 2 da activity - Trajetória do candidato -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloTrajetoria"
+            style="@style/tituloActivitySobrePrefeito"
+            />
+
+        <!-- Texto sobre a trajetória do candidato -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoSobreTrajetoria"
+            style="@style/textoActivitySobrePrefeito"
             />
 
     </LinearLayout>

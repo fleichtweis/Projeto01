@@ -33,7 +33,7 @@
             <item name="android:layout_height">130dp</item>
             <item name="android:textSize">14sp</item>
             <item name="android:textColor">@color/corBaixo</item>
-            <item name="android:padding">20dp</item>
+            <item name="android:padding">15dp</item>
             <item name="android:gravity">bottom|center</item>
             <item name="android:background">@drawable/background_button</item>
 
@@ -46,24 +46,27 @@
 
 
 
-    <!-- Activity Sobre Prefeito - Definição de Styles -->
-        <!-- Style dos títulos da activity -->
-        <style name="tituloActivitySobrePrefeito">
+    <!-- Style dos títulos da activity -->
+        <!-- Usado nas activitys - Sobre Prefeito, Sobre Coligação -->
+        <style name="tituloActivity">
             <item name="android:textStyle">bold</item>
             <item name="android:textSize">20sp</item>
             <item name="android:textColor">@color/preto</item>
             <item name="android:gravity">center</item>
             <!-- Margens para o Título -->
             <item name="android:layout_marginBottom">15dp</item>
-            <item name="android:layout_marginTop">25dp</item>
+            <item name="android:layout_marginTop">20dp</item>
         </style>
 
-        <!-- Style dos textos da activity -->
-        <style name="textoActivitySobrePrefeito">
+
+    <!-- Style dos textos da activity -->
+        <!-- Usado nas activitys - Sobre Prefeito, Sobre Coligação -->
+        <style name="textoActivity">
             <!-- Margens para o texto -->
             <item name="android:layout_marginRight">15dp</item>
             <item name="android:layout_marginLeft">15dp</item>
         </style>
+
 
 
 </resources>

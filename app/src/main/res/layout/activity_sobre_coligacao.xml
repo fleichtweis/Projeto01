@@ -7,19 +7,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.fleichtweis.projeto01.SobrePrefeito"
+    tools:context="com.fleichtweis.projeto01.SobreColigacao"
     android:orientation="vertical"
     android:background="@drawable/background">
 
-    <!-- Banner da Activity Sobre Prefeito -->
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_weight="1"
-        android:src="@drawable/fig02"
-        android:contentDescription="@string/descriptionBannerSobrePrefeito"/>
 
-    <!-- Títulos e textos da Activity -->
+    <!-- Título e texto da Activity -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -30,7 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tituloSobrePrefeito"
+            android:text="@string/tituloSobreColigacao"
             style="@style/tituloActivity"
             />
 
@@ -38,25 +31,20 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textoSobrePrefeito"
+            android:text="@string/textoSobreColigacao"
             style="@style/textoActivity"
-            />
-
-        <!-- Título 2 da activity - Trajetória do candidato -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tituloTrajetoria"
-            style="@style/tituloActivity"
-            />
-
-        <!-- Texto sobre a trajetória do candidato -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textoSobreTrajetoria"
-            style="@style/textoActivity"
+            android:layout_marginBottom="15dp"
             />
 
     </LinearLayout>
+
+
+    <!-- Banner da Activity Sobre Coligação -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:src="@drawable/fig02"
+        android:contentDescription="@string/descriptionBannerSobreColigacao"/>
+
 </LinearLayout>

@@ -25,7 +25,7 @@
 
             <Button
                 android:id="@+id/sobrePrefeito"
-                android:drawableTop="@android:drawable/ic_menu_agenda"
+                android:drawableTop="@drawable/iconAgenda"
                 android:text="@string/sobrePrefeito"
                 style="@style/botoes" />
 

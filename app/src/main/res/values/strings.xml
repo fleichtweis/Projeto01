@@ -4,20 +4,27 @@
     <string name="action_settings">Settings</string>
 
     <!-- Botões iniciais - Main Activity -->
-    <string name="candidatos">Candidatos</string>
-    <string name="sobrePrefeito">Sobre\nPrefeito</string>
-    <string name="propostas">Propostas</string>
-    <string name="sobreColigacao">Sobre\nColigação</string>
-    <string name="agenda">Agenda</string>
-    <string name="redesSociais">Redes\nSociais</string>
-    <string name="noticias">Notícias</string>
-    <string name="recado">Deixe seu\nRecado</string>
-    <string name="enquete">Enquete</string>
+        <string name="candidatos">Candidatos</string>
+        <string name="sobrePrefeito">Sobre\nPrefeito</string>
+        <string name="propostas">Propostas</string>
+        <string name="sobreColigacao">Sobre\nColigação</string>
+        <string name="agenda">Agenda</string>
+        <string name="redesSociais">Redes\nSociais</string>
+        <string name="noticias">Notícias</string>
+        <string name="recado">Deixe seu\nRecado</string>
+        <string name="enquete">Enquete</string>
+
+
 
     <!-- Títulos -->
         <!-- Activity Sobre Prefeito -->
         <string name="tituloSobrePrefeito">Sobre candidato a Prefeito</string>
         <string name="tituloTrajetoria">Trajetória do candidato</string>
+
+        <!-- Activity Sobre Coligação -->
+        <string name="tituloSobreColigacao">Sobre Coligação</string>
+
+
 
 
     <!-- Textos -->
@@ -27,12 +34,22 @@
         <string name="textoSobreTrajetoria">\t\t\tTrajetória do candidato, Trajetória do candidato, Trajetória do candidato.
             \n\t\t\tTrajetória do candidato, Trajetória do candidato, Trajetória do candidato, Trajetória do candidato.</string>
 
+        <!-- Activity Sobre Coligação -->
+        <string name="textoSobreColigacao">\t\t\tSobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação,
+            Sobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação.
+            \n\t\t\tSobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação, Sobre Coligação.</string>
+
+
+
 
     <!-- ContentDescription -->
         <!-- Main Activity -->
         <string name="descriptionBannerMainActivity">Candidatos, partidos, coligação e slogan</string>
 
         <!-- Activity Sobre Prefeito -->
-        <string name="descriptionBannerSobrePrefeito">Figura com o candidato</string>
+        <string name="descriptionBannerSobrePrefeito">Banner com o candidato</string>
+
+        <!-- Activity Sobre Coligação -->
+        <string name="descriptionBannerSobreColigacao">Banner com os candidatos da coligação</string>
 
 </resources>
